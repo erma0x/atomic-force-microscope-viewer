@@ -8,7 +8,7 @@ from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 
 
-z = pylab.loadtxt("data_AFM_BA/12_17/Misure_buone/10_topo_flat_vert_Fwd.txt",skiprows=11, unpack = True)
+z = pylab.loadtxt("data/topography_in_nanometers.txt",skiprows=11, unpack = True)
 
 print("lung di z =", len(z))
 
